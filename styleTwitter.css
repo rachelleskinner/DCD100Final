@@ -1,0 +1,107 @@
+body{
+  background-color:#FEFAE0;
+}
+header{
+  background-color:#606C38;
+  border-radius:30px;
+  width:90%;
+  height:20vw;
+  margin-right:auto;
+  margin-left:auto;
+  position:relative;
+}
+h1{
+  position:absolute;
+  top:0%;
+  left:6%;
+  font-size:4.5vw;
+  text-align:center;
+  line-height:1.2;
+}
+#subtitle{
+  font-size:2.5vw;
+}
+nav{
+  font-size:2.5vw;
+  position:absolute;
+  bottom:10%;
+  left:7%;
+}
+a{
+ color:black; 
+}
+a:hover{
+  color:#FEFAE0;
+}
+#currentPage{
+  color:#FEFAE0;
+}
+#self{
+  border-radius:50%;
+  width:18vw;
+  position:absolute;
+  right:8%;
+  padding:15px;
+}
+h1, h2, h3, nav{
+  font-family: 'Special Elite', cursive;
+}
+p{
+  font-family: 'Courier Prime', monospace;
+  font-size:1.5vw;
+}
+#twitterName{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:4vw;
+  margin-bottom:4vw;
+}
+h2{
+  font-size:4vw;
+}
+section{
+  padding:20px;
+  padding-left:4%;
+  padding-right:4%;
+  margin:20px;
+  border-radius:30px;
+  display:flex;
+  justify-content:space-between;
+  text-align:center;
+}
+.oddSection{
+  background-color:#BC6C25;
+}
+.evenSection{
+  background-color:#DDA15E;
+}
+#paraOne{
+  width:50vw;
+}
+#twitterLogo{
+  margin-top:3vw;
+  margin-bottom:3vw;
+}
+#paraTwo{
+  width:50vw;
+}
+#profilePhotos{
+  width:40%;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  row-gap:1vw;
+  column-gap:1vw;
+  margin-top:4vw;
+}
+#paraThree h2{
+  width:88vw;
+}
+#paraThree{
+ width:50vw;
+}
+#statistic{
+  margin-top:15vw;
+  margin-bottom:10vw;
+}
